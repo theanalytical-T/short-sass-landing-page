@@ -1,30 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Start of navigation*/
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.navbar > img {
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.navbar > ul {
+  list-style: none;
+}
+
+.navbar > ul > li {
+  display: inline;
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: #fa8e35;
+  padding: 1rem;
+  letter-spacing: 1.1;
+}
+
+/*End of navigation*/
+/*Start of landing page*/
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  font-size: 2.32rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container-header {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  margin-left: 6rem;
+  padding-top: 20rem;
+}
+
+.container-header > h1 > span {
+  color: #fa8e35;
+}
+
+.explore {
+  padding-left: .75rem;
+}
+
+.explore > h4 {
+  line-height: 11rem;
 }
 
 .landing-image {
   height: 1250px;
 }
+
+/*End of landing page*/
 /*# sourceMappingURL=main.css.map */

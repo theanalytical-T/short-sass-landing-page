@@ -1,19 +1,77 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Mono&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
-    // width: 100vh;
-    align-items: center;
-    justify-content: center;
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
-    &-header {
-        align-items: center;
-        justify-content: space-around;
+/*Start of navigation*/
+.navbar {
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 500;
+
+    & > img {
+        height: 80px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    & > ul {
+        list-style: none;
+
+        & > li {
+            display: inline;
+
+            & > a {
+                text-decoration: none;
+                color: rgb(250, 142, 53);
+                padding: 1rem;
+                // text-transform: uppercase;
+                letter-spacing: 1.1;
+            }
+        }
     }
 }
+/*End of navigation*/
+
+/*Start of landing page*/
+.container {
+    display: flex;
+    font-size: 2.32rem;
+    // align-items: center;
+    // padding-top: 10rem;
+    justify-content: space-between;
+    
+    &-header {
+        margin-left: 6rem;
+        padding-top: 20rem;
+        & > h1 > span {
+            color: rgb(250, 142, 53);
+
+        }
+    }
+}
+
+.explore {
+    padding-left: .75rem;
+
+    & > h4 {
+        line-height: 11rem;
+    }
+}
+
 .landing-image {
     height: 1250px;
 }
+/*End of landing page*/
