@@ -2,7 +2,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 0;
+  margin: 0 1rem;
   padding: 0;
 }
 
@@ -15,18 +15,21 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 3rem;
+  height: 5.2rem;
   width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 2rem;
   font-weight: 500;
+  padding: 0 2rem;
 }
 
 .navbar > img {
   height: 80px;
-  padding-left: 10px;
   padding-top: 10px;
 }
 
@@ -40,9 +43,33 @@ body {
 
 .navbar > ul > li > a {
   text-decoration: none;
-  color: #fa8e35;
-  padding: 1rem;
   letter-spacing: 1.1;
+  color: black;
+}
+
+.navbar > ul > li > a:hover {
+  color: #fa8e35;
+  text-decoration: underline;
+}
+
+.navbar > ul > li > a:visited {
+  color: black;
+}
+
+.sign-up {
+  font-size: 2rem;
+  height: 4rem;
+  width: 10rem;
+  color: white;
+  background-color: #fa8e35;
+  border-radius: .5rem;
+  border: none;
+  text-decoration: none;
+}
+
+.sign-up:hover {
+  text-decoration: underline;
+  background-color: #e78331;
 }
 
 /*End of navigation*/
@@ -58,7 +85,7 @@ body {
 }
 
 .container-header {
-  margin-left: 6rem;
+  margin-left: 2rem;
   padding-top: 20rem;
 }
 
@@ -71,10 +98,26 @@ body {
 }
 
 .explore > h4 {
-  line-height: 11rem;
+  line-height: 8rem;
+}
+
+.explore > button {
+  font-size: 1.5rem;
+  height: 4rem;
+  width: 8rem;
+  color: white;
+  background-color: #fa8e35;
+  border-radius: .5rem;
+  border: none;
+}
+
+.explore > button:hover {
+  background-color: #e78331;
 }
 
 .landing-image {
+  padding-top: 3rem;
+  margin-right: 2rem;
   height: 1250px;
 }
 
