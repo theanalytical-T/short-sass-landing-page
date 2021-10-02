@@ -23,7 +23,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   padding: 0 2rem;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .sign-up {
-  font-size: 2rem;
+  font-size: 1.8rem;
   height: 4rem;
   width: 10rem;
   color: white;

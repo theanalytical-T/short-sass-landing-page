@@ -12,6 +12,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+button {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 /*Start of navigation*/
 .navbar {
     display: flex;
@@ -19,7 +23,7 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     padding: 0 2rem;
 
@@ -53,7 +57,7 @@ body {
 }
 
 .sign-up {
-        font-size: 2rem;
+        font-size: 1.8rem;
         height: 4rem;
         width: 10rem;
         color: white;
@@ -61,10 +65,13 @@ body {
         border-radius: .5rem;
         border: none;
         text-decoration: none;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
         &:hover {
             text-decoration: underline;
             background-color:rgb(231, 131, 49);
+            cursor: pointer;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
         }
 }
 /*End of navigation*/
@@ -100,9 +107,12 @@ body {
         background-color: rgb(250, 142, 53);
         border-radius: .5rem;
         border: none;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
         &:hover {
             background-color:rgb(231, 131, 49);
+            // box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
         }
     }
 }
